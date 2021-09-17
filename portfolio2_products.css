@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 100%;
+	overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+	width: 1rem;
+}
+html::-webkit-scrollbar-track{
+	background: yellow;
+}
+html::-webkit-scrollbar-thumb{
+	background: red;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+.navbar{
+	background: red;
+}
+.navbar-brand{
+	font-family: 'Allison', cursive;
+	background: white;
+	color: red;
+	padding: .3rem 1rem;
+}
+.navbar-brand:hover{
+	color: yellow;
+}
+.collapse ul li{
+	margin: 0 8rem;
+}
+.collapse ul li a{
+	display: inline-block;
+	padding: .5rem 1rem;
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+	background: rgba(218, 52, 63, 1);
+}
+.collapse ul li:hover a{
+	color: yellow;
+}
+button span i{
+	color: white;
+}
+form button{
+	background: red;
+	border: none;
+}
+header{
+	font-size: 300%;
+	background: red;
+	border-top-left-radius: 80%;
+}
+header span{
+	margin-left: 50%;
+	color: white;
+	font-weight: bold;
+	font-family: 'Caveat', cursive;
+}
+.container-fluid{
+	background: red;
+}
+.card{
+	margin-top: 5%;
+	margin-left: 2%;
+	margin-bottom: 3%;
+}
+.cardd{
+	margin-left: 8%;
+}
+.card-body a{
+	font-style: italic;
+	background: rgba(218, 52, 63, 1);
+	border: .1rem solid red;
+}
+.card-body:hover a{
+	background: yellow;
+	border: .15rem solid #f9ca24;
+}
+.card-text{
+	color: red;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1270px){
+	header span{
+		margin-left: 45%;
+	}
+	.cardd{
+		margin-left: 2%;
+	}
+}
+
+@media (max-width: 990){
+	.collapse ul li a{
+		margin-left: 0;
+		padding-left: 0;
+		margin-top: .5rem;
+		background: red;
+	}
+}
+
+@media (max-width: 865px){
+	.card{
+		margin-left: 10%;
+	}
+}
+
+
+@media (max-width: 682px){
+	header span{
+		margin-left: 25%;
+	}
+	.card{
+		margin-left: 2%;
+	}
+}
+
+@media (max-width: 570px){
+	header span{
+		margin-left: 30%;
+	}
+	.card{
+		margin-left: 20%;
+	}
+    .collapse ul li a{
+	   font-size: 1.5rem;
+       margin-left: 0;
+       background-color: rgb(255, 0, 0);
+   }
+}
+
+
+@media (max-width: 375px){
+
+	.card{
+		margin-left: 10%;
+	}
+}

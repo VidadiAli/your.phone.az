@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Phone</title>
+	<link rel="stylesheet" type="text/css" href="portfolio2.css">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="bootstrap.js">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="brandd" href="#">Your Phone</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span ><i class="fas fa-bars"></i></span>
+        </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+        <li class="nav-item">
+          <a  aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#" id="products" target="_blank">Products</a>
+        </li>
+        <li class="nav-item">
+          <a  href="#" id="about" target="_blank">About</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="fas fa-search" type="submit"></button>
+      </form>
+    </div>
+  </div>
+</nav>
+       <div class="box1">
+             <h4>Every phone, package, brand You want is here now!</h4>
+             <p>Choose us and get...</p>
+       	     <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="span1">Registration</span></a>
+             <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal1"><span class="span2">Sign in</span></a>
+             <a href="" id="span3"><span class="span3">Enter Without Registration</span></a>
+             <div>
+              <h6 class="h61" id="h61"></h6>
+              <h6 class="h62" id="h62"></h6>
+              <h6 class="h63" id="h63"></h6>
+              <h6 class="h64" id="h64"></h6>
+            </div>
+       </div>
+       <div class="box2">
+       	     <ul id="ul1">Products
+               <li>Samsung</li>
+               <li>Apple</li>
+               <li>Huawei</li>
+               <li>Mi</li>
+               <li>Sony</li>
+               <li>LG</li>
+               <li>HTC</li>
+               <li>Honor</li>
+               <li>Lenova</li>
+             </ul>
+             <ul id="ul2">Packages
+               <li>5G</li>
+               <li>10GB</li>
+               <li>1s1qfw</li>
+               <li>3Phones</li>
+               <li>Sunday</li>
+               <li>YourInternet</li>
+               <li>LastDay</li>
+               <li>LastMonth</li>
+               <li>NewYear</li>
+             </ul>
+
+             <span class="span1"><i class="fas fa-mobile-alt"></i> Your Phone is Here</span>
+             <span class="span2"><i class="fas fa-laptop"></i> Soon...</span>
+             <span class="span3">Your_Phone</span>
+       </div>
+       <!-- Modal -->
+       <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title mx-auto" id="exampleModalLabel">Registration</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+                    <input type="text" placeholder="Name: " class="input1" style="background: white; color: black;">
+                    <input type="text" placeholder="Sorename: " class="input2" style="background: white; color: black;"><br><br>
+                    <input type="email" name="email" placeholder="Email: " class="input4" style="background: white; color: black;">
+                    <select name="Select" id="Select" class="input3" style="background: white; color: black;">
+                      <option style="background: white; color: black;">Gender</option>
+                      <option style="background: white; color: black;">Male</option>
+                      <option style="background: white; color: black;">Female</option>
+                      <option style="background: white; color: black;">I don't say</option>
+                    </select><br><br>
+                    <input type="text" placeholder="User name: " id="user" class="input5" style="background: white; color: black;">
+                    <input type="password" placeholder="Parola: " id="parol" class="input6" style="background: white; color: black;">
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-light" id="save">Save changes</button>
+             </div>
+           </div>
+         </div>
+         <span id="userr" style="display: none;"></span><span id="paroll" style="display: none;"></span>
+
+       </div>
+
+       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title mx-auto" id="exampleModalLabel">Sign In</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+                    <input type="text" placeholder="User name: " id="user1" style="background: white; color: black;"><br><br>
+                    <input type="password" placeholder="Parola: " id="parol1" style="background: white; color: black;">
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-light" id="enter">Enter</button>
+             </div>
+           </div>
+         </div>
+       </div>
+
+       <script src="bootstrap.js"></script>
+
+       <script type="text/javascript">
+        var times, times1, times2, times3, times4, times5, times6, times7;
+         window.onload=function() {
+              times=setInterval(proses, 1000);
+              function proses() {
+                  document.getElementById('h61').innerHTML="You Choose us and you win";
+              }
+              times1=setInterval(proses1, 5000);
+              function proses1() {
+                  document.getElementById('h61').innerHTML="";
+              }
+              times2=setInterval(proses2, 1200);
+              function proses2() {
+                  document.getElementById('h62').innerHTML="Every Week Every Month Every Year";
+              }
+              times3=setInterval(proses3, 5000);
+              function proses3() {
+                  document.getElementById('h62').innerHTML="";
+              }
+              times4=setInterval(proses4, 1400);
+              function proses4() {
+                  document.getElementById('h63').innerHTML="Gb, Mb, Packets and Others";
+              }
+              times5=setInterval(proses5, 5000);
+              function proses5() {
+                  document.getElementById('h63').innerHTML="";
+              }
+              times6=setInterval(proses6, 1600);
+              function proses6() {
+                  document.getElementById('h64').innerHTML="We are ready, Are you Ready?";
+              }
+              times7=setInterval(proses7, 5000);
+              function proses7() {
+                  document.getElementById('h64').innerHTML="";
+              }
+         }
+
+         about.onclick=function() {
+             newwindow=window.open("portfolio2_about.html", "newwindow");
+         }
+
+         products.onclick=function() {
+             newwindow=window.open("portfolio2_products.html", "newwindow");
+         }
+
+         span3.onclick=function() {
+          if (confirm("If you registr, Then you get 5% discount")==true) {
+          }
+          else{
+            newwindow=window.open("portfolio2_Site.html");
+          }
+         }
+
+         save.onclick=function() {
+           userr.textContent=user.value;
+           paroll.textContent=parol.value;
+           alert("Changes Saved");
+         }
+
+         enter.onclick=function() {
+           if(user1.value==userr.textContent && parol1.value==paroll.textContent &&parol1.value!=""){
+              newwindow=window.open("portfolio2_Site.html");
+           }
+           if(user1.value!=userr.textContent && parol1.value==paroll.textContent){
+              alert("Parola or User is Wrong...");
+           }
+           if(user1.value==userr.textContent && parol1.value!=paroll.textContent){
+              alert("Parola or User is Wrong...");
+           }
+           if(user1.value!=userr.textContent && parol1.value!=paroll.textContent){
+              alert("Parola or User is Wrong...");
+           }
+           if (user1.value=="" && parol1.value=="") {
+              alert("Enter Parola and User");
+           }
+         }
+
+         ul1.onclick=function() {
+           if (confirm("If you registr you get 5% discount!")==true) {
+
+           }else{
+            newwindow=window.open("portfolio2_Site.html", "newwindow");
+           }
+         }
+         ul2.onclick=function() {
+          newwindow=window.open("portfolio2_packet.html", "newwindow");
+         }
+
+       </script>
+
+</body>
+</html>

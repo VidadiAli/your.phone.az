@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+	width: 1rem;
+}
+html::-webkit-scrollbar-track{
+	background: yellow;
+}
+html::-webkit-scrollbar-thumb{
+	background: red;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+h2{
+	background: white;
+	color: darkred;
+	font-family: 'Allison', cursive;
+	border-top-left-radius: 100%;
+	text-align: center;
+}
+.box{
+	background: red;
+}
+.card{
+	margin: 1%;
+}
+.about{
+	color: white;
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 200%;
+}
+@media (max-width: 991px){
+    .about{
+	    margin-left: 15%;
+	    margin-right: 15%;
+	    font-size: 150%;
+    }
+}
+@media (max-width: 550px){
+	.about{
+	    margin-left: 10%;
+	    margin-right: 10%;
+	    font-size: 100%;
+    }
+}
