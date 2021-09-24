@@ -55,7 +55,7 @@ html::-webkit-scrollbar-thumb{
 .collapse ul li a{
     margin-left: 5rem;
     margin-right: 5rem;
-    color: white;
+    color: rgb(255, 254, 253);
     font-size: 1.5rem;
     font-weight: bold;
     font-style: italic;
@@ -411,8 +411,9 @@ html::-webkit-scrollbar-thumb{
 	}
 	.collapse ul li a{
 	   font-size: 3rem;
-       margin-left: 0;
-       background-color: rgb(209, 1, 15);
+           margin-left: 0;
+           background-color: rgb(209, 1, 15);
+           color: rgb(255, 254, 254);
 	}
 	.box1{
 		height: 70rem;
